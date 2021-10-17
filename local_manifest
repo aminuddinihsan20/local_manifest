@@ -7,7 +7,6 @@
   <!-- Device-specific sources -->
   <project name="android_device_xiaomi_surya" path="device/xiaomi/surya" remote="github" />
   <project name="android_kernel_xiaomi_surya" path="kernel/xiaomi/surya" remote="github" />
-  <project name="proprietary_firmware_xiaomi_surya" path="firmware/xiaomi/surya" remote="github" />
   <project name="proprietary_vendor_xiaomi_surya" path="vendor/xiaomi/surya" remote="github" />
   
   </manifest>
