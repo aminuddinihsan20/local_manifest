@@ -1,21 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="kghub"
+  <remote name="github"
           fetch="https://github.com/subhajeetmuhuri"
           revision="lineage-18.1" />
-
-  <remote name="kglab"
-          fetch="https://gitlab.com/subhajeetmuhuri"
-          revision="lineage-18.1" />
-
-  <remote name="stuff"
-          fetch="https://github.com/random-aosp-stuff"
-          revision="lineage-18.1" />
-
+  
   <!-- Device-specific sources -->
-  <project name="android_device_xiaomi_surya" path="device/xiaomi/surya" remote="kghub" />
-  <project name="android_kernel_xiaomi_surya" path="kernel/xiaomi/surya" remote="kghub" />
-  <project name="proprietary_firmware_xiaomi_surya" path="firmware/xiaomi/surya" remote="kglab" />
-  <project name="proprietary_vendor_xiaomi_surya" path="vendor/xiaomi/surya" remote="kghub" />
+  <project name="android_device_xiaomi_surya" path="device/xiaomi/surya" remote="github" />
+  <project name="android_kernel_xiaomi_surya" path="kernel/xiaomi/surya" remote="github" />
+  <project name="proprietary_firmware_xiaomi_surya" path="firmware/xiaomi/surya" remote="github" />
+  <project name="proprietary_vendor_xiaomi_surya" path="vendor/xiaomi/surya" remote="github" />
   
   </manifest>
