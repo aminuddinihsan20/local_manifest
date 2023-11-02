@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <!-- Remotes -->
-  <remote name="github"
-          fetch="https://github.com/aminuddinihsan20/"
-          revision="tiramisu" />
+  <remote name="amin" fetch="https://github.com/aminuddinihsan20" revision="tiramisu" />
   
  <!-- Trees -->
   <project name="android_device_xiaomi_surya" path="device/xiaomi/surya" remote="github" revision="tiramisu" />
