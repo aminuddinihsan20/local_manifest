@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <!-- Remotes -->
-  <remote name="amin" fetch="https://github.com/aminuddinihsan20" revision="tiramisu" />
-  
+  <remote name="amin" 
+    fetch="https://github.com/aminuddinihsan20"/>
+  <remote name="blob"  
+    fetch="https://gitlab.com/honokascape" />
  <!-- Trees -->
   <project name="android_device_xiaomi_surya" path="device/xiaomi/surya" remote="github" revision="tiramisu" />
   <project name="kernel_xiaomi_suryahzm" path="kernel/xiaomi/surya" remote="github" revision="tiramisu" />
   <project name="vendor_xiaomi_surya" path="vendor/xiaomi/surya" remote="github" revision="tiramisu" />
   
   </manifest>
+
