@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="amin" 
+  <remote name="git" 
     fetch="https://github.com/aminuddinihsan20"/>
   <remote name="blob"  
     fetch="https://gitlab.com/honokascape" />
 
 
-  <project path="device/xiaomi/surya" name="android_device_xiaomi_surya.git" remote="amin" revision="tiramisu" clone-depth="1" />
-  <project path="kernel/xiaomi/surya" name="kernel_xiaomi_suryahzm.git" remote="amin" revision="tiramisu" clone-depth="1" />
-  <project path="vendor/xiaomi/surya"  name="vendor_xiaomi_surya.git"  remote="amin" revision="tiramisu" clone-depth="1" />
-  <project path="kernel/xiaomi/surya/KernelSU" name="KernelSU.git" remote="amin" revision="main" clone-depth="1" />
-  <project path="hardware/xiaomi" name="hardware_xiaomi.git" remote="amin" revision="tiramisu" clone-depth="1"/>
+  <project path="device/xiaomi/surya" name="android_device_xiaomi_surya.git" remote="git" revision="tiramisu" clone-depth="1" />
+  <project path="kernel/xiaomi/surya" name="kernel_xiaomi_suryahzm.git" remote="git" revision="tiramisu" clone-depth="1" />
+  <project path="vendor/xiaomi/surya"  name="vendor_xiaomi_surya.git"  remote="git" revision="tiramisu" clone-depth="1" />
+  <project path="kernel/xiaomi/surya/KernelSU" name="KernelSU.git" remote="git" revision="main" clone-depth="1" />
+  <project path="hardware/xiaomi" name="hardware_xiaomi.git" remote="git" revision="tiramisu" clone-depth="1"/>
   <project path="device/xiaomi/surya-miuicamera" name="android_device_xiaomi_surya-miuicamera.git" remote="blob" revision="thirteen" clone-depth="1" />
   <project path="vendor/xiaomi/surya-miuicamera" name="android_vendor_xiaomi_surya-miuicamera.git" remote="blob" revision="thirteen" clone-depth="1" />
   
